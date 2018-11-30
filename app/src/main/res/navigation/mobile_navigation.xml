@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools"
-            app:startDestination="@id/bottom_navigation_fragment_1"
+            app:startDestination="@id/bottom_navigation_fragment_3"
             android:id="@+id/mobile_navigation">
     <fragment
             android:id="@+id/bottom_navigation_fragment_1"
@@ -33,6 +33,10 @@
                 app:argType="integer"
                 android:defaultValue="3"/>
 
+        <action
+                android:id="@+id/intent_setting"
+                app:destination="@id/setting_activity"/>
+
     </fragment>
     <fragment
             android:id="@+id/bottom_navigation_fragment_4"
@@ -53,5 +57,19 @@
                 app:argType="integer"
                 android:defaultValue="5"/>
     </fragment>
+
+    <activity
+            android:id="@+id/setting_activity"
+            android:label="SettingActivity"
+            android:name="sample.android.jp.yamada.yuki.navigationsampleapp.SettingActivity"
+            tools:layout="@layout/activity_setting">
+    </activity>
+
+    <activity
+            android:id="@+id/main_activity"
+            android:label="MainActivity"
+            android:name="sample.android.jp.yamada.yuki.navigationsampleapp.MainActivity"
+            tools:layout="@layout/activity_main">
+    </activity>
 
 </navigation>
