@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@id/bottom_navigation_fragment_1"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="@string/main_bottom_menu_1"/>
+    <item
+            android:id="@id/bottom_navigation_fragment_2"
+            android:icon="@android:drawable/ic_menu_more"
+            android:title="@string/main_bottom_menu_2"/>
+    <item
+            android:id="@id/bottom_navigation_fragment_3"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/main_bottom_menu_3"/>
+    <item
+            android:id="@id/bottom_navigation_fragment_4"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="@string/main_bottom_menu_4"/>
+    <item
+            android:id="@id/bottom_navigation_fragment_5"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/main_bottom_menu_5"/>
+</menu>

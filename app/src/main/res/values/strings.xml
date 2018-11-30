@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">NavigationSampleApp</string>
+
+    <string name="main_bottom_menu_1">MENU1</string>
+    <string name="main_bottom_menu_2">MENU2</string>
+    <string name="main_bottom_menu_3">MENU3</string>
+    <string name="main_bottom_menu_4">MENU4</string>
+    <string name="main_bottom_menu_5">MENU5</string>
 </resources>

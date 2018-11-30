@@ -2,6 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools"
+            app:startDestination="@id/bottom_navigation_fragment_1"
             android:id="@+id/mobile_navigation">
     <fragment
             android:id="@+id/bottom_navigation_fragment_1"
@@ -51,6 +52,7 @@
                 android:name="pageNumber"
                 app:argType="integer"
                 android:defaultValue="5"/>
+
 
     </fragment>
 
