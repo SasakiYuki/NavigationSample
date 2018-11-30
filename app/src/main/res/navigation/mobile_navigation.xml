@@ -17,7 +17,7 @@
     <fragment
             android:id="@+id/bottom_navigation_fragment_2"
             android:name="sample.android.jp.yamada.yuki.navigationsampleapp.BottomNavigationFragment"
-            tools:layout="@layout/fragment_bottom_navigation_1">
+            tools:layout="@layout/fragment_bottom_navigation_2">
         <argument
                 android:name="pageNumber"
                 app:argType="integer"
@@ -27,7 +27,7 @@
     <fragment
             android:id="@+id/bottom_navigation_fragment_3"
             android:name="sample.android.jp.yamada.yuki.navigationsampleapp.BottomNavigationFragment"
-            tools:layout="@layout/fragment_bottom_navigation_1">
+            tools:layout="@layout/fragment_bottom_navigation_3">
         <argument
                 android:name="pageNumber"
                 app:argType="integer"
@@ -37,7 +37,7 @@
     <fragment
             android:id="@+id/bottom_navigation_fragment_4"
             android:name="sample.android.jp.yamada.yuki.navigationsampleapp.BottomNavigationFragment"
-            tools:layout="@layout/fragment_bottom_navigation_1">
+            tools:layout="@layout/fragment_bottom_navigation_4">
         <argument
                 android:name="pageNumber"
                 app:argType="integer"
@@ -47,13 +47,11 @@
     <fragment
             android:id="@+id/bottom_navigation_fragment_5"
             android:name="sample.android.jp.yamada.yuki.navigationsampleapp.BottomNavigationFragment"
-            tools:layout="@layout/fragment_bottom_navigation_1">
+            tools:layout="@layout/fragment_bottom_navigation_5">
         <argument
                 android:name="pageNumber"
                 app:argType="integer"
                 android:defaultValue="5"/>
-
-
     </fragment>
 
 </navigation>
