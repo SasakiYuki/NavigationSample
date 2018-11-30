@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation">
+    <fragment
+            android:id="@+id/bottom_navigation_fragment_1"
+            android:name="sample.android.jp.yamada.yuki.navigationsampleapp.BottomNavigationFragment"
+            tools:layout="@layout/fragment_bottom_navigation_1">
+        <argument
+                android:name="pageNumber"
+                app:argType="integer"
+                android:defaultValue="1"/>
+
+    </fragment>
+    <fragment
+            android:id="@+id/bottom_navigation_fragment_2"
+            android:name="sample.android.jp.yamada.yuki.navigationsampleapp.BottomNavigationFragment"
+            tools:layout="@layout/fragment_bottom_navigation_1">
+        <argument
+                android:name="pageNumber"
+                app:argType="integer"
+                android:defaultValue="2"/>
+
+    </fragment>
+    <fragment
+            android:id="@+id/bottom_navigation_fragment_3"
+            android:name="sample.android.jp.yamada.yuki.navigationsampleapp.BottomNavigationFragment"
+            tools:layout="@layout/fragment_bottom_navigation_1">
+        <argument
+                android:name="pageNumber"
+                app:argType="integer"
+                android:defaultValue="3"/>
+
+    </fragment>
+    <fragment
+            android:id="@+id/bottom_navigation_fragment_4"
+            android:name="sample.android.jp.yamada.yuki.navigationsampleapp.BottomNavigationFragment"
+            tools:layout="@layout/fragment_bottom_navigation_1">
+        <argument
+                android:name="pageNumber"
+                app:argType="integer"
+                android:defaultValue="4"/>
+
+    </fragment>
+    <fragment
+            android:id="@+id/bottom_navigation_fragment_5"
+            android:name="sample.android.jp.yamada.yuki.navigationsampleapp.BottomNavigationFragment"
+            tools:layout="@layout/fragment_bottom_navigation_1">
+        <argument
+                android:name="pageNumber"
+                app:argType="integer"
+                android:defaultValue="5"/>
+
+    </fragment>
+
+</navigation>
